@@ -1,4 +1,21 @@
 Rails.application.routes.draw do
+  get "dashboard/index"
+  get "comments/create"
+  get "comments/destroy"
+  get "tasks/index"
+  get "tasks/show"
+  get "tasks/new"
+  get "tasks/create"
+  get "tasks/edit"
+  get "tasks/update"
+  get "tasks/destroy"
+  get "projects/index"
+  get "projects/show"
+  get "projects/new"
+  get "projects/create"
+  get "projects/edit"
+  get "projects/update"
+  get "projects/destroy"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Reveal health status on /up that returns 200 if the app boots with no exceptions, otherwise 500.
